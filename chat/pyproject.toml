@@ -1,0 +1,20 @@
+[project]
+name = "hw-5"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "VadimBatsko",email = "batsko1999god@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp (>=3.11.18,<4.0.0)",
+    "websockets (>=15.0.1,<16.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "names (>=0.3.0,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
